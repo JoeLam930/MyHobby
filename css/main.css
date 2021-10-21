@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+* {
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url(../img/depositphotos3.jpg);
+}
+h1 {
+    font-family:'Dosis';
+    font-weight: bold;
+    font-size: 3rem;
+    color: azure;
+    text-align: center;
+}
+h2{
+    font-family:'Dosis';
+    font-weight: bold;
+    font-size: 0.5rem;
+}
+p{
+    font-family: sans-serif;
+    font-size: 0.25rem;
+    max-width: 50ch;
+    color: ghostwhite;
+    text-align: justify;
+    line-height: 150%;
+}
+a{
+    text-decoration: none;
+    font-family: Dosis;
+    font-size: 1rem; 
+    font-weight: bolder; 
+    color: #fff;
+    line-height: 180%;
+    text-shadow: 1px 1px #000;
+    text-align: center;
+}
+#title{
+    max-width: 700px;
+    min-height: 400px;
+    margin:auto;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.container{
+    max-width: 70vh;
+    margin:auto;
+    min-height:350px;
+    border-radius: 25px;
+    background-color: #101010;
+    align-items:center;
+    justify-content: center;
+    padding: 0px 15px 15px;
+}
+#hobby{
+    display:flex;
+    margin: auto;
+    position:relative;
+    max-width: 500px;
+}
+.travelling{
+    margin:auto;
+    width:105px;
+    height:105px;
+    background-color:#C2AB97 ;
+    border-radius: 25px;
+    background-image: url(../img/traveling.jpg);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.movie{
+    margin:0 auto;
+    width:105px;
+    height:105px;
+    background-color:#A46F40 ;
+    border-radius: 25px;
+    background-image: url(../img/movie.jpg);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.game{
+    margin:auto;
+    width:105px;
+    height:105px;
+    background-color:#5B8787 ;
+    border-radius: 25px;
+    background-image: url(../img/TVGame.jpg);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.sport{
+    margin:auto;
+    width:105px;
+    height:105px;
+    background-color:#D2AA52 ;
+    border-radius: 25px;
+    background-image: url(../img/football.jpg);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:768px) {
+body{
+    background-image: url(../img/depositphotos3.jpg);
+    background-size: 90%;
+}
+a{
+    text-decoration: none;
+    font-family: Dosis;
+    font-size: 1.5rem; 
+    font-weight: bolder; 
+    color: #fff;
+    line-height: 150%;
+}
+#hobby{
+    display:flex;
+    flex-wrap: wrap;
+    margin: auto;
+    position: relative;
+    max-width: 365px;
+    text-align:center;
+    text-shadow: 1.5px 1.5px black;
+    line-height: 5rem;
+    gap:5px;
+}
+.travelling{
+    min-width:20vh;
+    min-height:20vh;
+    background-color:#C2AB97 ;
+    border-radius: 25px;
+    background-image: url(../img/traveling.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.movie{
+    margin:auto;
+    min-width:20vh;
+    min-height:20vh;
+    background-color:#A46F40 ;
+    border-radius: 25px;
+    background-image: url(../img/movie.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.game{
+    margin:auto;
+    min-width:20vh;
+    min-height:20vh;
+    background-color:#5B8787 ;
+    border-radius: 25px;
+    background-image: url(../img/TVGame.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.sport{
+    margin:auto;
+    min-width:20vh;
+    min-height:20vh;
+    background-color:#D2AA52 ;
+    border-radius: 25px;
+    background-image: url(../img/football.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+    
+}
+
+@media only screen and (max-width:428px) {
+body{
+    background-color: crimson;
+}
+}
